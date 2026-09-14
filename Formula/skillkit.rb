@@ -8,7 +8,7 @@ class Skillkit < Formula
   depends_on :macos
   depends_on arch: :arm64
 
-  url "https://github.com/alex-1q84/skillkit/releases/download/v#{version}/skillkit-#{version}-aarch64-apple-darwin.tar.gz"
+  url "https://github.com/alex-1q84/skillkit/releases/download/v0.1.7/skillkit-0.1.7-aarch64-apple-darwin.tar.gz"
   sha256 "05d844086e27d48c34a4e1d8c056628db846c826ce6dde04c77a0b0bdb7a539f"
 
   def install
